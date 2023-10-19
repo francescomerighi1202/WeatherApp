@@ -25,7 +25,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 80vh;
+  min-height: 100vh;
 }
 
 .weather-form, .footer {
@@ -172,6 +172,10 @@ form {
 @media (max-width: 576px) {
   .main-weather-container {
     gap: 1rem;
+  }
+
+  .main-container {
+    min-height: 90vh;
   }
 
   .summary {
