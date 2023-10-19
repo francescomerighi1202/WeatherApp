@@ -12,7 +12,6 @@
 }
 
 body {
-  height: 100vh;
   font-family: var(--ff);
 }
 
@@ -26,6 +25,13 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.main-container {
+  height: 100vh;
+}
+
+.main-weather-container {
   min-height: 100vh;
 }
 
@@ -172,7 +178,7 @@ form {
 
 @media (max-width: 576px) {
   .main-weather-container {
-    gap: 3rem;
+    gap: 2rem;
   }
 
   .summary {
