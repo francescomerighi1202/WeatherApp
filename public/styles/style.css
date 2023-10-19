@@ -27,9 +27,9 @@ img {
   justify-content: space-between;
 }
 
-/* .main-container {
+.main-container {
   height: 100vh;
-} */
+}
 
 .main-weather-container {
   min-height: 100vh;
