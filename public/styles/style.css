@@ -13,6 +13,7 @@
 
 body {
   font-family: var(--ff);
+  min-height: 100vh;
 }
 
 img {
@@ -25,7 +26,6 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 100vh;
 }
 
 .weather-form, .footer {
@@ -170,11 +170,8 @@ form {
 }
 
 @media (max-width: 576px) {
-  .main-container {
-    height: 50vh;
-  }
   .main-weather-container {
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .summary {
