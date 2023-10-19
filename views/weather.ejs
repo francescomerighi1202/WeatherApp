@@ -1,0 +1,23 @@
+<div class="main-container">
+    <%- include("partials/header.ejs") %>
+    
+    <section class="body-content">
+        <div class="summary-content">
+            <h1 class="summary"><%= locals.summary %></h1>
+        </div>
+
+        <div class="weather-content">
+            <div class="weather-content-temp">
+                <img class="weather-icon" src="<%= locals.icon %>" alt="Weather Icon">
+                <h1 class="current-temp"><%= locals.currentTemp %>°</h1>
+            </div>
+            <div class="weather-content-info">
+                <h1 class="main-weather"><%= locals.mainWeather %> - <%= locals.description %></h1>
+                <h1 class="city-name"><%= locals.cityName %></h1>
+                <h1 class="country-name"><%= locals.stateName %> - <%= locals.countryName %></h1>
+            </div>
+        </div>
+    </section>
+    
+    <%- include("partials/footer.ejs") %>
+</div>
