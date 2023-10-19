@@ -5,7 +5,8 @@ import axios from 'axios';
 const app = express();
 const port = process.env.PORT || 3000;
 
-const API_KEY = "9ebbfdd774e657147a1f4f82b56e007c";
+// (for GitHub cloning/downloading) Insert API key here
+const API_KEY = "";
 const GEO_API_URL = "http://api.openweathermap.org/geo/1.0/direct";
 const WEATHER_API_URL = "https://api.openweathermap.org/data/3.0/onecall";
 
