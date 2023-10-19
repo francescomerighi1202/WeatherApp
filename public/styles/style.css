@@ -170,6 +170,9 @@ form {
 }
 
 @media (max-width: 576px) {
+  .main-container {
+    height: 100vh;
+  }
   .main-weather-container {
     gap: 2rem;
   }
