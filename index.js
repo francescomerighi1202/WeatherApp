@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // Create express app
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 const API_KEY = "9ebbfdd774e657147a1f4f82b56e007c";
 const GEO_API_URL = "http://api.openweathermap.org/geo/1.0/direct";
